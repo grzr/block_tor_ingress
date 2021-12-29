@@ -17,6 +17,6 @@ terraform apply
 
 ## Sources
 
-[1] https://lists.fissionrelays.net/tor/
-[2] https://cloud.google.com/armor/docs/security-policy-overview
-[3] https://cloud.google.com/vpc/docs/quota#per_organization
+* [1] https://lists.fissionrelays.net/tor/
+* [2] https://cloud.google.com/armor/docs/security-policy-overview
+* [3] https://cloud.google.com/vpc/docs/quota#per_organization
