@@ -9,7 +9,7 @@ resource "google_compute_firewall_policy_rule" "block_ingress_from_tor_exit_node
   disabled        = false
   match {
     layer4_configs {
-      ip_protocol = "tcp"
+      ip_protocol = "all"
     }
     src_ip_ranges = [
       "107.189.14.76/31",
@@ -281,7 +281,7 @@ resource "google_compute_firewall_policy_rule" "block_ingress_from_tor_exit_node
   disabled        = false
   match {
     layer4_configs {
-      ip_protocol = "tcp"
+      ip_protocol = "all"
     }
     src_ip_ranges = [
       "141.136.0.117",
@@ -553,7 +553,7 @@ resource "google_compute_firewall_policy_rule" "block_ingress_from_tor_exit_node
   disabled        = false
   match {
     layer4_configs {
-      ip_protocol = "tcp"
+      ip_protocol = "all"
     }
     src_ip_ranges = [
       "198.98.59.65",
@@ -825,7 +825,7 @@ resource "google_compute_firewall_policy_rule" "block_ingress_from_tor_exit_node
   disabled        = false
   match {
     layer4_configs {
-      ip_protocol = "tcp"
+      ip_protocol = "all"
     }
     src_ip_ranges = [
       "5.2.72.113",
@@ -1003,7 +1003,7 @@ resource "google_compute_firewall_policy_rule" "block_ingress_from_tor_exit_node
   disabled        = false
   match {
     layer4_configs {
-      ip_protocol = "tcp"
+      ip_protocol = "all"
     }
     src_ip_ranges = [
       "2001:1b60:2:1:3935:104:0:1",
@@ -1275,7 +1275,7 @@ resource "google_compute_firewall_policy_rule" "block_ingress_from_tor_exit_node
   disabled        = false
   match {
     layer4_configs {
-      ip_protocol = "tcp"
+      ip_protocol = "all"
     }
     src_ip_ranges = [
       "2605:6400:30:f858:2704:73e1:7085:12ef",
@@ -1547,7 +1547,7 @@ resource "google_compute_firewall_policy_rule" "block_ingress_from_tor_exit_node
   disabled        = false
   match {
     layer4_configs {
-      ip_protocol = "tcp"
+      ip_protocol = "all"
     }
     src_ip_ranges = [
       "2a04:52c0:101:9ca::",
