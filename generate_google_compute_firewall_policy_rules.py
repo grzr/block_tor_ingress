@@ -16,7 +16,7 @@ resource "google_compute_firewall_policy_rule" "block_ingress_from_tor_exit_node
   disabled = false
   match {
     layer4_configs {
-      ip_protocol = "tcp"
+      ip_protocol = "all"
     }
     src_ip_ranges = [
     {% for ip in ip_ranges %}"{{ ip }}",
